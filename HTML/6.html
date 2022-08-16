@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecnoVerde - Desenvolvimento Profissional</title>
+<link rel="stylesheet" type="text/css" href="..\CSS/style.css">
+<link rel="stylesheet" type="text/css" href="..\CSS/fotos.css">
+<link rel="stylesheet" type="text/css" href="..\CSS/botao.css">
+<link rel="stylesheet" type="text/css" href="..\CSS/topbot.css">
+<script type="text/javascript" language
+="javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function()
+	 {
+    jQuery(window).scroll(function() 
+    {
+        if (jQuery(this).scrollTop() > 200)
+         {
+            jQuery('.voltar-ao-topo').fadeIn(200);}
+        else {jQuery('.voltar-ao-topo').fadeOut(200); }
+        });
+        jQuery('.voltar-ao-topo').click(function(event) 
+        {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, 300);
+        })
+});</script>
+</head>
+<body background="..\IMAGEM/bg.jpg">
+ <header class="men">
+ 	<input type="checkbox" id="btn-menu">
+ 	<label for="btn-menu">&#9776;</label>
+ 	<nav class="menu">
+ 		<ul>
+ 			<li><a href="1.html">Página Principal</a></li>
+ 			<li><a href="2.html">Problemas Ambientais</a></li>
+ 			<li><a href="3.html">Soluções Sustentáveis</a></li>
+ 			<li><a href="4.html">Sustentabilidade</a></li>
+ 			<li><a href="5.html">TI Verde</a></li>
+ 			<li><a href="6.html">Desenvolvimento Profissional</a></li>
+ 		</ul>
+ 	</nav>
+ </header>
+<br/>
+<br/>
+<br/>
+<br/>
+<center><table class="texto" border="3" bgcolor="white" bordercolor="white" style="border-radius: 10px">
+<td>
+<article>
+	<header>
+		<center><a href="1.html"><img src="..\IMAGEM/logo2.png"></a></center>
+	</header>
+		<br/>
+   		<center><h1>Desenvolvimento Profissional</h1></center>
+    	<br/>
+	<p align="justify">
+	As pesquisas e os conteúdos selecionados sobre o tema e os assuntos referentes a ele, feitos todos nós, alunos do curso de Ciência da Computação, foram muito importantes para nossa formação profissional, tendo impacto direto no nosso futuro atuando no mercado de trabalho, tanto como funcionários, quanto como empresários, já que conseguimos ter uma ampla visão das várias possibilidades de se apresentar um desenvolvimento sustentável, produzindo softwares que possibilitem maior desempenhos em equipamentos utilizando menos energia elétrica, softwares que façam diagnósticos, melhorias e manutenção em equipamentos ou outras coisas que necessitem visando diminuir seu impacto no meio ambiente, entre muitas outras possibilidades. Por isso consideramos de extrema importância em nossa formação cada segundo investido nas pesquisas e produção de conteúdo para nossa APS, nos tornando profissionais melhor desempenhados para atuar em diversas áreas após nossa formação. 
+	</p>
+	<br>
+	<br>
+	<center><img src="..\IMAGEM/Des_Prof.jpg" width=70%></center>
+</article>
+</td>
+</table></center>
+	<footer class="botoes">
+		<a href="7.html" class="btn-1">Quem somos?</a>
+		<a href="8.html" class="btn-2">Seja um TecnoVerde!</a>
+	    <a href="9.html" class="btn-3">Deixe sua sugestão.</a>
+	</footer>
+	<a href="#" class="voltar-ao-topo">Voltar ao topo</a>
+	<br>
+	<br>
+	<footer style="width: 99,9%; background-color: #2f2f2f; color: white; height: 100%;border-style: outset; border-color: #2f2f2f">
+		<center><p>TecnoVerde | © Copyright 2018 - Todos os direitos reservados! | UNIP - Campus JK - São José do Rio Preto | CC1Q28 </p></center>
+	</footer>
+</body>
+</html>

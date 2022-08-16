@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecnoVerde - Sustentabilidade</title>
+<link rel="stylesheet" type="text/css" href="..\CSS/style.css">
+<link rel="stylesheet" type="text/css" href="..\CSS/fotos.css">
+<link rel="stylesheet" type="text/css" href="..\CSS/botao.css">
+<link rel="stylesheet" type="text/css" href="..\CSS/topbot.css">
+<script type="text/javascript" language
+="javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function()
+	 {
+    jQuery(window).scroll(function() 
+    {
+        if (jQuery(this).scrollTop() > 200)
+         {
+            jQuery('.voltar-ao-topo').fadeIn(200);}
+        else {jQuery('.voltar-ao-topo').fadeOut(200); }
+        });
+        jQuery('.voltar-ao-topo').click(function(event) 
+        {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, 300);
+        })
+});</script>
+</head>
+<body background="..\IMAGEM/bg.jpg">
+ <header class="men">
+ 	<input type="checkbox" id="btn-menu">
+ 	<label for="btn-menu">&#9776;</label>
+ 	<nav class="menu">
+ 		<ul>
+ 			<li><a href="1.html">Página Principal</a></li>
+ 			<li><a href="2.html">Problemas Ambientais</a></li>
+ 			<li><a href="3.html">Soluções Sustentáveis</a></li>
+ 			<li><a href="4.html">Sustentabilidade</a></li>
+ 			<li><a href="5.html">TI Verde</a></li>
+ 			<li><a href="6.html">Desenvolvimento Profissional</a></li>
+ 		</ul>
+ 	</nav>
+ </header>
+<br/>
+<br/>
+<br/>
+<br/>
+<center><table class="texto" border="3" bgcolor="white" bordercolor="white" style="border-radius: 10px">
+<td>
+<article>
+	<header>
+		<center><a href="1.html"><img src="..\IMAGEM/logo2.png"></a></center>
+	</header>
+		<br/>
+		<center><h1>Sustentabilidade</h1></center>
+		<br/>
+	<p align="justify">O termo sustentabilidade é usado para definir ações e atividades humanas que visam suprir às necessidades atuais dos seres humanos, sem comprometer o futuro das próximas gerações, seguindo os parâmetros da sustentabilidade, a humanidade pode garantir o desenvolvimento sustentável. Esses parâmetros se dão basicamente em conseguir fazer a união entre o meio social, o meio econômico e o meio ambiente, sendo assim sustentável o desenvolvimento, como exemplificado abaixo no tripé da sustentabilidade.</p>
+		<br/>
+		<br/>
+		<br/>
+	<center><img src="..\IMAGEM/235.png" width=90%></center>
+</article>
+</td>
+</table></center>
+	<footer class="botoes">
+		<a href="7.html" class="btn-1">Quem somos?</a>
+		<a href="8.html" class="btn-2">Seja um TecnoVerde!</a>
+	    <a href="9.html" class="btn-3">Deixe sua sugestão.</a>
+	</footer>
+	<a href="#" class="voltar-ao-topo">Voltar ao topo</a>
+	<br>
+	<br>
+	<footer style="width: 99,9%; background-color: #2f2f2f; color: white; height: 100%;border-style: outset; border-color: #2f2f2f">
+		<center><p>TecnoVerde | © Copyright 2018 - Todos os direitos reservados! | UNIP - Campus JK - São José do Rio Preto | CC1Q28 </p></center>
+	</footer>
+</body>
+</html>
